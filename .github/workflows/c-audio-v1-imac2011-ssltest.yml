@@ -1,5 +1,8 @@
 name: Build C-AUDIO V1 iMac 2011 SSL Channel Test
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
